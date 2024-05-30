@@ -1,0 +1,141 @@
+@import url('./colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+
+*{
+    font-family: "Signika", sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.titulo{
+    color: var(--main-white);
+    font-size: 38px;
+}
+
+.titulo-dash{
+    color: var(--main-white);
+    font-size: 28px;
+}
+
+.titulo-playlist{
+    color: var(--main-white);
+    font-size: 20px;
+    width: 200px;
+}
+
+.subtitulo-playlist{
+    color: var(--sub-text);
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+}
+
+.id-artista{
+    color: var(--main-white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.titulo-artista{
+    color: var(--main-white);
+    font-size: 16px;
+    font-weight: 400;    
+}
+
+.subtitulo-artista{
+    color: var(--sub-text);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subtitulo{
+    color: var(--main-green);
+}
+
+.p-principal{
+    padding: 0px 72px !important;
+}
+
+.pl-5{
+    padding-left: 48px;
+}
+
+.bg-principal{
+    background-color: var(--body-black);
+}
+
+.body{
+    min-height: 100vh;
+}
+
+.sidebar{
+    min-height: 100%;
+    width: 250px !important;
+    background-color: var(--third-green);
+}
+
+.area-user{
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 18px;
+    padding: 4px 10px;
+}
+
+.btns{
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 18px;
+    padding: 6px 18px;
+}
+
+.btn-green{
+    color: var(--text-black);
+    background-color: var(--main-green);
+}
+
+.btn-black{
+    background-color: transparent;
+    border: solid 1px var(--main-green);
+    color: var(--main-green);
+}
+
+.btns-sidebar{
+    font-size: 18px;
+    border: none; 
+    background-color: transparent;
+    padding: 10px 38px;
+}
+
+.btns-sidebar:hover{
+    font-weight: 600;
+    background-color: var(--second-green);
+}
+
+.btn-artistas{
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 18px;
+    padding: 6px 95px;
+    background-color: transparent;
+    border: solid 1px var(--main-green);
+    color: var(--main-green);
+}
+
+.btn-artistas.selected {
+    color: var(--text-black);
+    background-color: var(--main-green);
+}
+
+.area-musico{
+    background-color: var(--second-gray);
+    border-radius: 18px;
+    padding: 12px;
+
+}

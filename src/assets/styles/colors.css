@@ -1,0 +1,11 @@
+:root{
+    --body-black: #010200;
+    --text-black: #06080B;
+    --main-green: #1ED760;
+    --main-white: #FFFFFF;
+    --sub-text: #a7a7a7;
+    --second-green: rgba(30, 215, 96, 0.7);
+    --main-gray: #202020;
+    --third-green: rgba(30, 215, 96, 0.8);
+    --second-gray: #111111;
+}
